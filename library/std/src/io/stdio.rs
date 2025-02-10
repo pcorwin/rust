@@ -578,7 +578,7 @@ impl fmt::Debug for StdinLock<'_> {
 /// it flushes automatically when a newline (`\n`) is encountered. For immediate
 /// output, you can manually call the [`flush`] method. When the handle goes out
 /// of scope, the buffer is automatically flushed.
-/// 
+///
 /// Created by the [`io::stdout`] method.
 ///
 /// ### Note: Windows Portability Considerations
